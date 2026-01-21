@@ -1,5 +1,5 @@
 import { About } from "../components/About"
-import { Carousel } from "../components/carousel"
+import { Carousel } from "../components/Carousel"
 import { Contact } from "../components/Contact"
 import { Footer } from "../components/Footer"
 import { HeroSection } from "../components/HeroSection"
