@@ -1,0 +1,12 @@
+#foot1 #f1{
+    font-size: xx-small;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-family: 'Poppins,serif';
+    
+}
+
+#foot1{
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}

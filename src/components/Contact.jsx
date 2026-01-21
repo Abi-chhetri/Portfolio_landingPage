@@ -1,6 +1,7 @@
 import linkedin from '../assets/LIN.png'
 import wa from '../assets/transparent-whatsapp.png'
 import email from '../assets/email.png'
+import whatsapp from '../assets/whatsapp.png'
 
 export const Contact = () =>{
 
@@ -57,9 +58,29 @@ export const Contact = () =>{
                 
             </div>
 
-            <div className='bg-gray-900 h-max w-full mt-[15%] rounded-tr-2xl rounded-tl-2xl '>
-                <h1 className="font-['serif'] text-4xl text-center mt-[10%]">Share Your Problems</h1>
-                <p>A Safe Space To Explain Your Legal Concern</p>
+            <div className='flex flex-col gap-5 bg-gray-900 h-max w-full mt-[15%] rounded-tr-2xl rounded-tl-2xl pb-5'>
+                <h1 className="font-['serif'] text-4xl ml-[10%] mt-[10%]">Share Your Problems</h1>
+                <p className='text-xs font-thin opacity-80 ml-[10%]'>A Safe Space To Explain Your Legal Concern</p>
+                <div className='flex gap-2 mt-[5%]'>
+                    <input 
+                    type="text"
+                    placeholder="your message"
+                    className="border-white max-w-50 text-black ml-[10%] y-1 rounded-lg px-2 bg-white active:border-2 active:border-[rgba(175,100,40,0.69)]"
+                    />
+                    <button 
+                    type='#' 
+                    className='border-none px-2 py-2 rounded-2xl bg-[rgba(175,100,40,0.69)] opacity-80'
+                    >
+                        Send message
+                    </button>
+                </div>
+
+                 <figure className='flex justify-end mt-[7%]'>
+                    <img 
+                    className='h-10 w-10 mr-[5%]'
+                    src={whatsapp} 
+                    alt="whatsapp png" />
+                </figure>
             </div>
         </section>
     )

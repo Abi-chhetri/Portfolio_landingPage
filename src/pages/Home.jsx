@@ -1,6 +1,7 @@
 import { About } from "../components/About"
 import { Carousel } from "../components/carousel"
 import { Contact } from "../components/Contact"
+import { Footer } from "../components/Footer"
 import { HeroSection } from "../components/HeroSection"
 import { Nav } from "../components/nav"
 import { Skill } from "../components/Skill"
@@ -19,5 +20,6 @@ export const Home = ()=>{
         <Carousel />
         <WorkArea />
         <Contact />
+        <Footer />
     </main>
 )}
