@@ -3,7 +3,7 @@ import { Carousel } from "../components/Carousel"
 import { Contact } from "../components/Contact"
 import { Footer } from "../components/Footer"
 import { HeroSection } from "../components/HeroSection"
-import { Nav } from "../components/nav"
+import { Nav } from "../components/Nav"
 import { Skill } from "../components/Skill"
 import { WorkArea } from "../components/WorkArea"
 
