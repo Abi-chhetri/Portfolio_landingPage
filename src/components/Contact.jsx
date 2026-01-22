@@ -1,7 +1,6 @@
 import linkedin from '../assets/LIN.png'
 import wa from '../assets/transparent-whatsapp.png'
 import email from '../assets/email.png'
-import whatsapp from '../assets/whatsapp.png'
 import { useContext } from 'react'
 import { ThemeContext } from "../Context/ThemeContext";
 
@@ -19,7 +18,7 @@ export const Contact = () =>{
                 <p className="ml-[10%]">Want to Chat? Feel Free To reach Out Via  &nbsp;
                     <a 
                     className='underline text-blue-500'
-                    href="mailto:abcd321@gmail.com">
+                    href="mailto:deepesh6000@gmail.com">
                         Email
                     </a>
                 </p>
@@ -28,7 +27,7 @@ export const Contact = () =>{
                 <p className="ml-[10%]"> 
                     <a 
                     className='underline text-blue-500'
-                    href="https://wa.me/9812345678">
+                    href="https://wa.me/9841075921">
                         Whatsapp
                     </a>
                 

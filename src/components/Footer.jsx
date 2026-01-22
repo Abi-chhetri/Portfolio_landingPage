@@ -28,9 +28,9 @@ export const Footer = () =>{
                 <h1>Phone:</h1>
             </div>
             <div className="ml-[40%] gap-4 flex flex-col justify-around">
-                <p className="mt-[10%]"> +977 9841567789</p>
+                <p className="mt-[10%]"> +977 9841075921</p>
                 <p>Email:</p>
-                <p>name@gmail.com</p>
+                <p>deepesh6000@gmail.com</p>
                 <p>Socials:</p>
                 <figure className='flex gap-3 text-white'> 
                     <a href="https://www.linkedin.com/in/someone32/">

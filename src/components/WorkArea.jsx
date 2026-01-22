@@ -1,4 +1,3 @@
-import whatsapp from '../assets/whatsapp.png'
 
 export const WorkArea = () =>{
 

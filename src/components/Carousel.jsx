@@ -2,7 +2,6 @@ import { useCallback, useContext, useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import WheelGestures from 'embla-carousel-wheel-gestures'
 import { eventsData } from '../Data/CarouselData'
-import whatsapp from '../assets/whatsapp.png'
 import {ThemeContext} from '../Context/ThemeContext'
 
 

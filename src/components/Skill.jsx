@@ -1,5 +1,5 @@
 import file from '../assets/file-search.svg'
-import whatsapp from '../assets/whatsapp.png'
+import whatsapp from '../assets/whatsapp.jpg'
 
 export const Skill =() =>{
 
@@ -20,11 +20,15 @@ export const Skill =() =>{
                 <p className='bg-green-300 text-gray-600 py-0.5 px-3 border-none rounded-2xl ml-[17%]'>Negotiation</p>
             </div>
             <figur className='flex justify justify-end'>
-                <img 
-                className='h-[32px] w-[32px] mt-[7%] mr-[8%] fixed top-[87%]'
-                src={whatsapp} 
-                alt="whatsapp png from" 
-                />
+                <a
+                className='fixed top-[87%] mt-[7%] mr-[8%] '
+                href="https://wa.me/9841075921">
+                    <img 
+                    className='h-[40px] w-[40px]'
+                    src={whatsapp} 
+                    alt="whatsapp png from" 
+                    />
+                </a>
             </figur>
         </section>
     )
