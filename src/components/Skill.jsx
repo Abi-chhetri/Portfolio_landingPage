@@ -24,7 +24,7 @@ export const Skill =() =>{
                 className='fixed top-[87%] mt-[7%] mr-[8%] z-20'
                 href="https://wa.me/9841075921">
                     <img 
-                    className='h-[40px] w-[40px]'
+                    className='h-[40px] w-[40px] rounded'
                     src={whatsapp} 
                     alt="whatsapp png from" 
                     />
