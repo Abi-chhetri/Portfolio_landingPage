@@ -2,8 +2,12 @@ import linkedin from '../assets/LIN.png'
 import wa from '../assets/transparent-whatsapp.png'
 import email from '../assets/email.png'
 import whatsapp from '../assets/whatsapp.png'
+import { useContext } from 'react'
+import { ThemeContext } from "../Context/ThemeContext";
 
 export const Contact = () =>{
+
+    const {theme} = useContext(ThemeContext)
 
     return (
         <section className="mt-[15%] flex flex-col gap-4">
@@ -50,7 +54,7 @@ export const Contact = () =>{
             <div className="w-full flex justify-center items-center">
                 <div className="border-1 w-[70%] h-45 border-gray-300 rounded-[50%]">
                     <div className="flex items-center justify-between border-1 w-[80%] h-35 ml-[10%] mt-[7%] border-gray-300 rounded-[50%]">
-                        <img className='h-10 w-10 -ml-[7%] bg-white rounded-[50%]' src={linkedin} alt="" srcset="" />
+                        <img className={`h-10 w-10 -ml-[7%] ${theme ? 'bg-none': 'bg-white'} rounded-[50%]`} src={linkedin} alt="" srcset="" />
                         <img className='h-10 w-10 bg-white rounded-[50%]' src={wa} alt="" srcset="" />
                         <img className='h-10 w-10 -mr-[7%] bg-white rounded-[50%]' src={email} alt="" srcset="" />
                     </div>
@@ -58,7 +62,7 @@ export const Contact = () =>{
                 
             </div>
 
-            <div className='flex flex-col gap-5 bg-gray-900 h-max w-full mt-[15%] rounded-tr-2xl rounded-tl-2xl pb-5'>
+            <div className={`flex flex-col gap-5 ${theme ? 'bg-gray-100 text-black': 'bg-gray-900 text-white' }h-max w-full mt-[15%] rounded-tr-2xl rounded-tl-2xl pb-5`}>
                 <h1 className="font-['serif'] text-4xl ml-[10%] mt-[10%]">Share Your Problems</h1>
                 <p className='text-xs font-thin opacity-80 ml-[10%]'>A Safe Space To Explain Your Legal Concern</p>
                 <div className='flex gap-2 mt-[5%]'>

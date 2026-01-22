@@ -1,13 +1,16 @@
-import { useCallback, useEffect } from 'react'
+import { useCallback, useContext, useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import WheelGestures from 'embla-carousel-wheel-gestures'
 import { eventsData } from '../Data/CarouselData'
 import whatsapp from '../assets/whatsapp.png'
+import {ThemeContext} from '../Context/ThemeContext'
+
 
 const SCALE_FACTOR = 1
 
 export const Carousel = () =>{
 
+    const {theme} = useContext(ThemeContext)
 
     const [emblaRef, emblaApi] = useEmblaCarousel(
         {
@@ -56,7 +59,7 @@ export const Carousel = () =>{
                         key={Date.now()}
                         className="flex-[0_0_70%] px-2"
                     >
-                        <div className="h-84 bg-black shadow-md border-white border-1 shadow-white rounded-xl flex flex-col transition-transform duration-300 p-2 gap-5">
+                        <div className={`h-86 ${ theme ? 'text-black bg-white shadow-black border-black': 'border-white shadow-white' }  shadow-md  border-1 rounded-xl flex flex-col transition-transform duration-300 p-2 gap-5`}>
                             <img 
                             className='h-[60%] rounded-xl object-cover w-full'
                             src={eData.image}/>

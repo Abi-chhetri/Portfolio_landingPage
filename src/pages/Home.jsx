@@ -1,3 +1,4 @@
+import { useContext } from "react"
 import { About } from "../components/About"
 import { Carousel } from "../components/carousel"
 import { Contact } from "../components/Contact"
@@ -6,13 +7,15 @@ import { HeroSection } from "../components/HeroSection"
 import { Nav } from "../components/nav"
 import { Skill } from "../components/Skill"
 import { WorkArea } from "../components/WorkArea"
+import { ThemeContext } from "../Context/ThemeContext"
 
 
 export const Home = ()=>{
+    const {theme} =useContext(ThemeContext);
     
 
     return (
-    <main className="h-full w-full">
+    <main className={`h-full w-full   ${theme ? 'bg-white text-black': 'bg-black text-white' } `}>
         <Nav />
         <HeroSection />
         <About />

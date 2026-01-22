@@ -1,11 +1,12 @@
+import { ThemeContextProvider } from "./Context/ThemeContext"
 import { Home } from "./pages/Home"
 
 function App() {
 
   return (
-    <>
-    < Home />
-    </>
+    <ThemeContextProvider>
+      < Home />
+    </ThemeContextProvider>
   )
 }
 

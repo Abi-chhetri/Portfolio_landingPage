@@ -1,12 +1,15 @@
+import { useContext } from 'react'
 import lin from '../assets/LIN.png'
 import fb from '../assets/fb.png'
 import insta from '../assets/insta.png'
 import '../styles/foot.css'
+import {ThemeContext} from '../Context/ThemeContext'
 
 export const Footer = () =>{
+    const {theme} = useContext(ThemeContext)
 
     return (
-        <footer className="h-max w-full overflow-hidden py-4 bg-neutral-800" id='foot1'>
+        <footer className={`h-max w-full overflow-hidden py-4 ${theme ? 'bg-white text-black':'bg-neutral-800'}`} id='foot1'>
             <h1 className="ml-[10%] font-['serif'] text-2xl">Deepesh Shrestha</h1>
             <hr className="mt-[5%] ml-[10%] mr-[10%]" />
 
