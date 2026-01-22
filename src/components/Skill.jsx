@@ -9,7 +9,7 @@ export const Skill =() =>{
                 <img 
                 src={file}
                 alt="file-search svg" />
-                <header className="text-4xl font-['Times']">Skills</header>
+                <header className="text-4xl">Skills</header>
             </figure>
             <div className='mt-[7%] flex flex-col items-center gap-1'>
                 <p className='bg-green-300 text-gray-600 py-0.5 px-4 border-none rounded-2xl ml-[12%]'>Precision</p>
@@ -21,7 +21,7 @@ export const Skill =() =>{
             </div>
             <figur className='flex justify justify-end'>
                 <img 
-                className='h-[32px] w-[32px] mt-[7%] mr-[8%]'
+                className='h-[32px] w-[32px] mt-[7%] mr-[8%] fixed top-[87%]'
                 src={whatsapp} 
                 alt="whatsapp png from" 
                 />

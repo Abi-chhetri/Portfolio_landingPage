@@ -3,7 +3,7 @@ export const About= () =>{
 
     return (
         <section className="mt-[20%]">
-            <header className="font-['serif'] font-thin text-3xl ml-[10%]">About Me</header>
+            <header className="font-thin text-3xl ml-[10%]">About Me</header>
             <article className="text-xs pr-[10%] pl-[18%] text-justify leading-5 mt-[7%]">
                 I am a Advocate/Legal Counseller with 5+ years of experience
                 in [field], helping [target audience] achieve 

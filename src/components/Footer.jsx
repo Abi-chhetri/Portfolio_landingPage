@@ -10,10 +10,10 @@ export const Footer = () =>{
 
     return (
         <footer className={`h-max w-full overflow-hidden py-4 ${theme ? 'bg-white text-black':'bg-neutral-800'}`} id='foot1'>
-            <h1 className="ml-[10%] font-['serif'] text-2xl">Deepesh Shrestha</h1>
+            <h1 className="ml-[10%] text-2xl">Deepesh Shrestha</h1>
             <hr className="mt-[5%] ml-[10%] mr-[10%]" />
 
-            <div className="ml-[40%] font-['serif'] gap-4 flex flex-col justify-around">
+            <div className="ml-[40%] gap-4 flex flex-col justify-around">
                 <p className="text-2xl mt-[10%]"><span className="text-xs">01</span> Home</p>
                 <p className="text-2xl"><span className="text-xs">02</span> About</p>
                 <p className="text-2xl"><span className="text-xs"> 03</span> Expertise</p>
@@ -27,7 +27,7 @@ export const Footer = () =>{
                 <h1 className="text-xl">Connect</h1>
                 <h1>Phone:</h1>
             </div>
-            <div className="ml-[40%] font-['serif'] gap-4 flex flex-col justify-around">
+            <div className="ml-[40%] gap-4 flex flex-col justify-around">
                 <p className="mt-[10%]"> +977 9841567789</p>
                 <p>Email:</p>
                 <p>name@gmail.com</p>

@@ -11,7 +11,7 @@ export const Contact = () =>{
 
     return (
         <section className="mt-[15%] flex flex-col gap-4">
-            <header className="font-['serif'] text-4xl ml-[10%]">
+            <header className="text-4xl ml-[10%]">
                 Get In Touch
             </header>
 
@@ -63,7 +63,7 @@ export const Contact = () =>{
             </div>
 
             <div className={`flex flex-col gap-5 ${theme ? 'bg-gray-100 text-black': 'bg-gray-900 text-white' }h-max w-full mt-[15%] rounded-tr-2xl rounded-tl-2xl pb-5`}>
-                <h1 className="font-['serif'] text-4xl ml-[10%] mt-[10%]">Share Your Problems</h1>
+                <h1 className="text-3xl ml-[10%] mt-[10%]">Share Your Problems</h1>
                 <p className='text-xs font-thin opacity-80 ml-[10%]'>A Safe Space To Explain Your Legal Concern</p>
                 <div className='flex gap-2 mt-[5%]'>
                     <input 
@@ -78,13 +78,6 @@ export const Contact = () =>{
                         Send message
                     </button>
                 </div>
-
-                 <figure className='flex justify-end mt-[7%]'>
-                    <img 
-                    className='h-10 w-10 mr-[5%]'
-                    src={whatsapp} 
-                    alt="whatsapp png" />
-                </figure>
             </div>
         </section>
     )

@@ -48,8 +48,8 @@ export const Carousel = () =>{
     return (
         <section className="mt-[15%]">
             <header className="ml-[10%] flex flex-col gap-2">
-                <h1 className="font-['Times'] text-4xl ">Events</h1>
-                <h1 className="font-['Times'] text-4xl ml-[20%]">Photos</h1>
+                <h1 className="text-4xl ">Events</h1>
+                <h1 className="text-4xl ml-[20%]">Photos</h1>
             </header>
 
             <div className="overflow-hidden mt-[25%] py-3" ref={emblaRef}>
@@ -81,12 +81,6 @@ export const Carousel = () =>{
                     ))}
                 </div>
             </div>
-            <figure className='flex items-center justify-end'>
-                <img 
-                src={whatsapp} 
-                className='h-10 w-10 mt-[30%] mr-[5%]'
-                alt="whatsapp png" />
-            </figure>
         </section>
     )
 }

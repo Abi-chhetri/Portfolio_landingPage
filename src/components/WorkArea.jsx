@@ -5,7 +5,7 @@ export const WorkArea = () =>{
 
     return (
         <section className="mt-[20%]">
-            <header className="font-['Times'] text-3xl ml-[10%]">
+            <header className="text-3xl ml-[10%]">
                 <h1>Area Of</h1>
                 <h1>Expertise</h1>
             </header>
@@ -34,9 +34,8 @@ export const WorkArea = () =>{
                     x="390"
                     y="95"
                     textAnchor="middle"
-                    fontSize="25"
+                    fontSize="22"
                     font-weight="bold"
-                    fontFamily="serif"
                     fill="#000"
                     >
                     Litigation
@@ -57,9 +56,8 @@ export const WorkArea = () =>{
                     x="220"
                     y="115"
                     textAnchor="middle"
-                    fontSize="25"
+                    fontSize="22"
                     font-weight="bold"
-                    fontFamily="serif"
                     fill="#000"
                     >
                     Corporate Law
@@ -109,9 +107,8 @@ export const WorkArea = () =>{
                     y="150"
                     z="100"
                     textAnchor="middle"
-                    fontSize="25"
+                    fontSize="22"
                     font-weight="bold"
-                    fontFamily="serif"
                     fill="#000"
                     >
                         Family Law
@@ -151,7 +148,6 @@ export const WorkArea = () =>{
                     textAnchor="middle"
                     fontWeight="400"
                     font-size="60"
-                    fontFamily="Times"
                     >
                         EXPERTISE
                     </text>
@@ -161,7 +157,7 @@ export const WorkArea = () =>{
 
             <div className="p-4 pr-4">
                 <header 
-                className="text-center text-4xl font-['serif']">
+                className="text-center text-4xl">
                     Work Experience
                 </header>
 
@@ -197,13 +193,6 @@ export const WorkArea = () =>{
                     </aside>
                 </span>
             </div>
-
-            <figure className='flex justify-end'>
-                <img 
-                src={whatsapp}
-                className="h-10 w-10 mr-[5%]"
-                alt="whatsapp png" />
-            </figure>
         </section>
     )
 }

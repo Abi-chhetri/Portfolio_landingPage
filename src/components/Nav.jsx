@@ -10,7 +10,7 @@ export const Nav = () => {
 
     return (
     <nav className='pt-3 text-right pl-5 pr-2 text-3xl flex items-center justify-between'>
-        <header className="text-xl font-['Cursive']">Deepesh Shrestha</header>
+        <header className="text-lg">Deepesh Shrestha</header>
 
         <div className="flex gap-7">
             <button
@@ -22,10 +22,10 @@ export const Nav = () => {
                 {
                     toggle ?
                     <img
-                    className="h-8 w-8" 
+                    className="h-6 w-6" 
                     src={light} />
                     :
-                    <img className="h-8 w-8" src={dark}/>
+                    <img className="h-6 w-6" src={dark}/>
                 }
             </button>
        

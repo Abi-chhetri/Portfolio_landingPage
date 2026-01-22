@@ -10,7 +10,7 @@ export const HeroSection = () =>{
             />
             <section className='flex flex-col items-center justify-center mt-2 gap-6'>
                 <header className='opacity-80 text-sm'>Advocate / Legal Counseller</header>
-                <p className="text-center text-md opacity-90 font-['Cursive']"> Helping individuals Resolve Legal 
+                <p className="text-center text-md opacity-90"> Helping individuals Resolve Legal 
                     <br/>
                     Matters with Confidence
                 </p>
