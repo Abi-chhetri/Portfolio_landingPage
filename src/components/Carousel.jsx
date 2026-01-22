@@ -55,10 +55,10 @@ export const Carousel = () =>{
                 <div className="flex touch-pan-y">
                     {eventsData.map((eData) => (
                     <div
-                        key={Date.now()}
+                        key={eData.id}
                         className="flex-[0_0_70%] px-2"
                     >
-                        <div className={`h-86 ${ theme ? 'text-black bg-white shadow-black border-black': 'border-white shadow-white' }  shadow-md  border-1 rounded-xl flex flex-col transition-transform duration-300 p-2 gap-5`}>
+                        <div className={`h-86 ${ theme ? 'text-black bg-white shadow-black border-black': 'border-white shadow-white' }  shadow-md  border-1 rounded-xl overflow-hidden flex flex-col transition-transform duration-300 p-2 gap-5`}>
                             <img 
                             className='h-[60%] rounded-xl object-cover w-full'
                             src={eData.image}/>

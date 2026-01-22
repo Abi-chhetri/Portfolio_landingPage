@@ -21,7 +21,7 @@ export const Skill =() =>{
             </div>
             <figur className='flex justify justify-end'>
                 <a
-                className='fixed top-[87%] mt-[7%] mr-[8%] '
+                className='fixed top-[87%] mt-[7%] mr-[8%] z-20'
                 href="https://wa.me/9841075921">
                     <img 
                     className='h-[40px] w-[40px]'
