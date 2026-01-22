@@ -60,7 +60,7 @@ export const Carousel = () =>{
                     >
                         <div className={`h-86 ${ theme ? 'text-black bg-white shadow-black border-black': 'border-white shadow-white' }  shadow-md  border-1 rounded-xl overflow-hidden flex flex-col transition-transform duration-300 p-2 gap-5`}>
                             <img 
-                            className='h-[60%] rounded-xl object-cover w-full'
+                            className='h-[60%] rounded-xl object-top object-cover w-full'
                             src={eData.image}/>
                             <div className='flex flex-col gap-2 items-center'>
                                 <p className='text-sm'>{eData.title}</p>
